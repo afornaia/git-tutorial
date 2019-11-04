@@ -1,0 +1,11 @@
+language: generic
+
+script:
+  - echo "Build and Test: Step 1"
+  - echo "Build and Test: Step 2"
+
+deploy:
+  provider: pages
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: master
