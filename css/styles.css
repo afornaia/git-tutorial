@@ -1,11 +1,11 @@
 body {
-	background: white;
+	background: black;
 	font-family: "Arial";
 }
 
 .header, .footer {
-  background-color: blue;
-  color: white;
+  background-color: #222;
+  color: red;
   padding: 15px;
   text-align: center;
 }
@@ -45,10 +45,10 @@ body {
 .item li {
   margin-bottom: 8px;
   padding: 8px;
-  background-color: blue;
+  background-color: red;
   color: white;
 }
 
 .item li:hover {
-  background-color: green;
+  background-color: gray;
 }
